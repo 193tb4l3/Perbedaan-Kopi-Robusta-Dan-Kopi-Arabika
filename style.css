@@ -1,0 +1,124 @@
+/* Gaya Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    max-height: 50px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 1;
+    padding: 1;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Gaya Responsif Header */
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Gaya Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-height: 30px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    margin-right: 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-link a:hover {
+    color: #007bff;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.social-icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Gaya Responsif Footer */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 10px;
+    }
+
+    .footer-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .social-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
